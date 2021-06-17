@@ -1,5 +1,5 @@
 body{
-	background-color:#111111;
+	background-color:#ededed;
 	margin:0px;
 	font: 400 14/16px 'Bree Serif', Georgia, sans-serif;
 	color: #111111;
@@ -15,7 +15,7 @@ a img{border:0px;}
 #container{
 	width:950px;
 	margin:0px auto 0px auto;
-	background-color: #fffafa;
+	background-color: #fffefa;
 	overflow:auto;
 	padding-bottom:50px;
 }
@@ -27,7 +27,7 @@ a img{border:0px;}
 #header{
 	width:864px;
 	height:115px;
-	background-color:#e63030;
+	background-color:#fffefa;
 	padding:0px 43px;
 	position: fixed;
 	top:0px;
