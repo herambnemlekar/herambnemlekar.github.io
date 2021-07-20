@@ -4,7 +4,7 @@ body{
 	font: 400 14/16px 'Bree Serif', Georgia, sans-serif;
 	color: #111111;
 }
-h1{font: 400 28px/30px 'Courier New', Georgia, serif; color: #111111;}
+h1{font: 400 28px/30px 'Courier New', monospace; color: #111111;}
 h2{font: 400 20px/22px 'Bree Serif', Georgia, serif; color: #111111;}
 h3{font: 400 18px/20px 'Bree Serif', Georgia, serif; color: #111111;}
 ul{margin:0px; padding:0px;}
