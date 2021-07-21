@@ -3,6 +3,8 @@ body{
 	margin:0px;
 	font: 400 14/16px 'Bree Serif', Georgia, sans-serif;
 	color: #111111;
+	text-align: justify;
+  text-justify: inter-word;
 }
 h1{font: 400 28px/30px 'Courier New', monospace; color: #111111;}
 h2{font: 400 20px/22px 'Courier New', monospace; color: #111111;}
@@ -17,7 +19,7 @@ a img{border:0px;}
   margin-left: auto;
   margin-right: auto;
   width: 950px;
-  opacity: 0.85;
+  opacity: 0.9;
 }
 
 #container{
@@ -70,35 +72,44 @@ a img{border:0px;}
 /* publication SECTION */
 /****************************************************/
 
-#publish{margin:0px 43px; padding-top:50px;}
-#publish .content{overflow:auto;}
-#publish .content img{float:left; margin-right:40px; border:5px solid #222222;}
+#research{margin:0px 43px; padding-top:30px;}
+#research .content{overflow:auto;}
+#research .content img{float:left; margin-right:40px; border:5px solid #222222;}
 
 
 /****************************************************/
-/* connect SECTION */
+/* art SECTION */
 /****************************************************/
-#connect{margin:0px 43px; padding-top:50px;}
-#connect .content{overflow:auto;}
-#connect #social-footer{
+
+#art{margin:0px 43px; padding-top:30px;}
+#art .content{overflow:auto;}
+#art .content img{float:left; margin-right:40px; border:5px solid #222222;}
+
+
+/****************************************************/
+/* contact SECTION */
+/****************************************************/
+#contact{margin:0px 43px; padding-top:30px;}
+#contact .content{overflow:auto;}
+#contact #social-footer{
 	width:300px;
 	float:left;
 }
-#connect #social-footer #sm-links{margin-top:15px;}
-#connect #social-footer #sm-links li{
+#contact #social-footer #sm-links{margin-top:15px;}
+#contact #social-footer #sm-links li{
 	list-style:none;
 	float:left;
 }
-#connect #social-footer #sm-links li a{
+#contact #social-footer #sm-links li a{
 	display:block;
 	text-indent:-9999px;
 	width:26px;
 	height:26px;
 	margin-right:10px;
 }
-#connect #social-footer #sm-links li a.github{background:url(images/sm-github-icon.png) no-repeat; object-fit:fill}
-#connect #social-footer #sm-links li a.twitter{background:url(images/sm-twitter-icon.png) no-repeat; width:31px;}
-#connect #social-footer #sm-links li a.linkedin{background:url(images/sm-linkedin-icon.png) no-repeat;}
+#contact #social-footer #sm-links li a.github{background:url(images/sm-github-icon.png) no-repeat; object-fit:fill}
+#contact #social-footer #sm-links li a.twitter{background:url(images/sm-twitter-icon.png) no-repeat; width:31px;}
+#contact #social-footer #sm-links li a.linkedin{background:url(images/sm-linkedin-icon.png) no-repeat;}
 
 /****************************************************/
 /* MISC */
