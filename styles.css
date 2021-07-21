@@ -82,7 +82,7 @@ a img{border:0px;}
 
 #art{margin:0px 43px; padding-top:30px;}
 #art .content{overflow:auto; text-align:center}
-#art .content img{float:middle; margin-right:0px; opacity:0.8; border:1px solid #edeada;}
+#art .content img{float:middle; margin-right:0px; opacity:0.8; border:0px solid #edeada;}
 
 
 /****************************************************/
@@ -106,7 +106,7 @@ a img{border:0px;}
 	height:26px;
 	margin-right:10px;
 }
-#contact #social-footer #sm-links li a.github{background:url(images/sm-github-icon.png) no-repeat; object-fit:fill}
+#contact #social-footer #sm-links li a.github{background:url(images/sm-github-icon.png) no-repeat;}
 #contact #social-footer #sm-links li a.twitter{background:url(images/sm-twitter-icon.png) no-repeat; width:31px;}
 #contact #social-footer #sm-links li a.linkedin{background:url(images/sm-linkedin-icon.png) no-repeat;}
 
