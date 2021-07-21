@@ -18,8 +18,7 @@ a img{border:0px;}
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 950px;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 #container{
@@ -38,7 +37,7 @@ a img{border:0px;}
 	width:864px;
 	height:115px;
 	background-color:#edeada;
-	opacity:0.75;
+	opacity:0.8;
 	padding:0px 43px;
 	position: fixed;
 	top:0px;
@@ -55,7 +54,7 @@ a img{border:0px;}
 	float:left;
 	list-style:none;
 	margin-left:27px;
-	font: 400 24px/42px 'Courier New', monospace;
+	font: 400 24px/40px 'Courier New', monospace;
 	color: #DEB887;
 }
 
@@ -82,8 +81,8 @@ a img{border:0px;}
 /****************************************************/
 
 #art{margin:0px 43px; padding-top:30px;}
-#art .content{overflow:auto;}
-#art .content img{float:left; margin-right:40px; border:5px solid #222222;}
+#art .content{overflow:auto; text-align:center}
+#art .content img{float:middle; margin-right:0px; opacity:0.8; border:1px solid #edeada;}
 
 
 /****************************************************/
