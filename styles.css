@@ -1,13 +1,13 @@
 body{
 	background-color:#ededed;
 	margin:0px;
-	font: 400 14/16px 'Bree Serif', Georgia, sans-serif;
+	font: 400 24/26px 'Bree Serif', Georgia, sans-serif;
 	color: #111111;
 	text-align: justify;
   text-justify: inter-word;
 }
 h1{font: 400 28px/30px 'Garamond', monospace; color: #111111;}
-h2{font: 400 20px/22px 'Courier New', monospace; color: #111111;}
+h2{font: 400 20px/22px 'Bree Serif', Georgia; color: #111111;}
 h3{font: 400 18px/20px 'Bree Serif', Georgia, serif; color: #111111;}
 ul{margin:0px; padding:0px;}
 a {text-decoration:none; color: #111111;}
@@ -37,7 +37,7 @@ a img{border:0px;}
 	width:864px;
 	height:115px;
 	background-color:#edeada;
-	opacity:0.8;
+	opacity:0.7;
 	padding:0px 43px;
 	position: fixed;
 	top:0px;
@@ -47,14 +47,14 @@ a img{border:0px;}
 #header #logo{
 	padding-top:40px;
 	float:left;
-	font: 400 38px/40px 'Courier New', monospace;
+	font: 400 38px/40px 'Garamond', monospace;
 }
 #header #main-menu{float:right; padding-top:45px;}
 #header #main-menu li{
 	float:left;
 	list-style:none;
 	margin-left:27px;
-	font: 400 24px/40px 'Courier New', monospace;
+	font: 400 24px/40px 'Garamond', monospace;
 	color: #DEB887;
 }
 
@@ -62,7 +62,7 @@ a img{border:0px;}
 /* about SECTION */
 /****************************************************/
 
-#about{margin:0px 43px; padding-top:50px;}
+#about{margin:0px 43px; padding-top:30px;}
 #about .content{overflow:auto;}
 #about .content img{float:left; margin-right:40px; border:5px solid #222222;}
 
