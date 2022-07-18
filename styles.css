@@ -82,7 +82,7 @@ a img{border:0px;}
 
 #teaching{margin:0px 43px; padding-top:30px;}
 #teaching .content{overflow:auto; text-align:center}
-#teaching .content img{float:middle; margin-right:0px; opacity:0.8; border:0px solid #edeada;}
+#teaching .content img{float:middle; margin-right:0px; opacity:1.0; border:0px solid #edeada;}
 
 
 /****************************************************/
