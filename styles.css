@@ -80,9 +80,9 @@ a img{border:0px;}
 /* media SECTION */
 /****************************************************/
 
-#media{margin:0px 43px; padding-top:30px;}
-#media .content{overflow:auto; text-align:center}
-#media .content img{float:middle; margin-right:0px; opacity:0.8; border:0px solid #edeada;}
+#teaching{margin:0px 43px; padding-top:30px;}
+#teaching .content{overflow:auto; text-align:center}
+#teaching .content img{float:middle; margin-right:0px; opacity:0.8; border:0px solid #edeada;}
 
 
 /****************************************************/
