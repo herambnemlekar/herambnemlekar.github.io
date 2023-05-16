@@ -86,6 +86,15 @@ a img{border:0px;}
 
 
 /****************************************************/
+/* news SECTION */
+/****************************************************/
+
+#news{margin:0px 43px; padding-top:94px;}
+#news .content{overflow:auto; text-align:center}
+#news .content img{float:middle; margin-right:0px; opacity:1.0; border:0px solid #edeada;}
+
+
+/****************************************************/
 /* art SECTION */
 /****************************************************/
 
