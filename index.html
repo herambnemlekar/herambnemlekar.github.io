@@ -23,7 +23,7 @@
     <div id="name">Heramb Nemlekar</div>
     <ul id="main-menu">
         <li><a href="#news">News</a></li>
-        <li><a href="pages/publications.html">Research</a></li>
+        <li><a href="publications.html">Research</a></li>
         <li><a href="#outreach">Outreach</a></li>
         <li><a href="#art">Art</a></li>
     </ul>
@@ -183,27 +183,28 @@
 		</div>
 	</div>
 <!--End contact Section-->
-</div>
 
 </div>
- <!-- The JavaScript -->
-        <script type="text/javascript">
-    		$(function() {
-                $('#main-menu li a').bind('click',function(event){
-                    var $anchor = $(this);
 
-                    $('html, body').stop().animate({
-                        scrollTop: $($anchor.attr('href')).offset().top
-                    }, 1500,'easeInOutExpo');
+</div>
+<!-- The JavaScript -->
+    <script type="text/javascript">
+		$(function() {
+            $('#main-menu li a').bind('click',function(event){
+                var $anchor = $(this);
 
-                    event.preventDefault();
-                });
+                $('html, body').stop().animate({
+                    scrollTop: $($anchor.attr('href')).offset().top
+                }, 1500,'easeInOutExpo');
+
+                event.preventDefault();
             });
+        });
 
- 			 $(document).ready(function(){
-    		$("a[rel^='prettyPhoto']").prettyPhoto({social_tools:false, deeplinking: false});
-  			});
+			 $(document).ready(function(){
+		$("a[rel^='prettyPhoto']").prettyPhoto({social_tools:false, deeplinking: false});
+			});
+    </script>
 
-        </script>
 </body>
 </html>
