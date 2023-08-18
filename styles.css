@@ -36,8 +36,8 @@ a img{border:0px;}
 
 #header{
 	width: 820px;  /* because the header has padding on each side */
-	height: 110px;
-	background-color: #f5f5ff;
+	height: 115px;
+	background-color: #ffffff;
 	opacity: 0.85;
 	padding: 0px 40px;
 	position: fixed;
@@ -59,57 +59,20 @@ a img{border:0px;}
 	list-style: none;
 	margin-left: 24px;
 	font: bold 24px/48px 'Garamond', monospace;
+	text-decoration: none;
+	transition: text-decoration 0.3s ease;
 }
 
-/*#header #container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
+#header #main-menu li:hover {
+  opacity: 0.6;
+  /*text-decoration: underline;*/
 }
-
-.menu-toggle {
-  display: none;
-  cursor: pointer;
-}
-
-.menu-toggle span {
-  display: block;
-  width: 30px;
-  height: 4px;
-  background-color: #111;
-  margin: 6px auto;
-  transition: all 0.3s;
-}
-
-.desktop-menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-.desktop-menu li {
-  margin-left: 20px;
-  font: bold 20px/48px 'Garamond', monospace;
-}
-
-.mobile-menu {
-  display: none;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.mobile-menu.active {
-  display: block;
-}*/
 
 /****************************************************/
 /* about SECTION */
 /****************************************************/
 
-#about{margin:0px 80px; padding-top:60px;}
+#about{margin:0px 80px; padding-top:50px;}
 #about .content{overflow:auto;}
 
 
@@ -117,7 +80,7 @@ a img{border:0px;}
 /* news SECTION */
 /****************************************************/
 
-#news{margin:0px 80px; padding-top:80px;}
+#news{margin:0px 80px; padding-top:100px;}
 #news .content{overflow:auto;}
 #news .content img{float:middle; margin-right:0px; opacity:1.0; border:5px solid #edeada;}
 
@@ -126,7 +89,7 @@ a img{border:0px;}
 /* publication SECTION */
 /****************************************************/
 
-#research{margin:0px 80px; padding-top:40px;}
+#research{margin:0px 80px; padding-top:50px;}
 #research .content{overflow:auto;}
 #research .content img{float:left; margin-right:40px; border:5px solid #222222;}
 
@@ -135,7 +98,7 @@ a img{border:0px;}
 /* outreach SECTION */
 /****************************************************/
 
-#outreach{margin:0px 80px; padding-top:40px;}
+#outreach{margin:0px 80px; padding-top:50px;}
 #outreach .content{overflow:auto; text-align:center}
 #outreach .content img{float:middle; margin-right:0px; opacity:1.0; border:0px solid #edeada;}
 
@@ -145,35 +108,18 @@ a img{border:0px;}
 /* art SECTION */
 /****************************************************/
 
-#art{margin:0px 43px; padding-top:94px;}
-#art .content{overflow:auto; text-align:center}
+#art{margin:0px 43px; padding-top:100px;}
+#art .content{overflow:auto; text-align:center;}
 #art .content img{float:middle; margin-right:0px; opacity:0.8; border:0px solid #edeada;}
 
 
 /****************************************************/
 /* contact SECTION */
 /****************************************************/
-#contact{margin:0px 43px; padding-top:94px;}
-#contact .content{overflow:auto;}
-#contact #social-footer{
-	width:300px;
-	float:left;
-}
-#contact #social-footer #sm-links{margin-top:15px;}
-#contact #social-footer #sm-links li{
-	list-style:none;
-	float:left;
-}
-#contact #social-footer #sm-links li a{
-	display:block;
-	text-indent:-9999px;
-	width:26px;
-	height:26px;
-	margin-right:10px;
-}
-#contact #social-footer #sm-links li a.github{background:url(images/sm-github-icon.png) no-repeat;}
-#contact #social-footer #sm-links li a.twitter{background:url(images/sm-twitter-icon.png) no-repeat; width:31px;}
-#contact #social-footer #sm-links li a.linkedin{background:url(images/sm-linkedin-icon.png) no-repeat;}
+#contact{margin:0px 80px; padding-top:100px;}
+#contact .content{overflow:auto; text-align:center; font-size: 14px;}
+#contact #social-footer{width: 100%; text-align: center;}
+
 
 /****************************************************/
 /* MISC */
