@@ -61,10 +61,10 @@ a img{border:0px;}
 	font: bold 24px/48px 'Garamond', monospace;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   #header #main-menu li{
-    margin-left: 22px;
-    font: bold 22px/48px 'Garamond', monospace;
+    margin-left: 20px;
+    font: bold 20px/48px 'Garamond', monospace;
   }
 }
 
