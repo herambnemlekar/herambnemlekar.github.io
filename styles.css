@@ -47,18 +47,6 @@ a img{border:0px;}
 	text-align: center;
 }
 
-/*@media (max-width: 1024px) {
-  #header {
-    width: 75%;
-  }
-}
-
-@media (max-width: 768px) {
-  #header {
-    width: 100%;
-  }
-}*/
-
 #header #name{
 	padding-top: 35px;
 	float: left;
@@ -71,6 +59,13 @@ a img{border:0px;}
 	list-style: none;
 	margin-left: 28px;
 	font: bold 24px/48px 'Garamond', monospace;
+}
+
+@media (max-width: 768px) {
+  #header #main-menu {
+    margin-left: 22px;
+    font: bold 22px/48px 'Garamond', monospace;
+  }
 }
 
 /****************************************************/
