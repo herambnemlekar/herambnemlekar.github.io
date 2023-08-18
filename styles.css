@@ -35,7 +35,7 @@ a img{border:0px;}
 /****************************************************/
 
 #header{
-	width: 820px;  /* because the header has 2% padding on each side */
+	width: 820px;  /* because the header has padding on each side */
 	height: 110px;
 	background-color: #f5f5ff;
 	opacity: 0.85;
@@ -47,7 +47,7 @@ a img{border:0px;}
 	text-align: center;
 }
 
-@media (max-width: 1024px) {
+/*@media (max-width: 1024px) {
   #header {
     width: 75%;
   }
@@ -57,7 +57,7 @@ a img{border:0px;}
   #header {
     width: 100%;
   }
-}
+}*/
 
 #header #name{
 	padding-top: 35px;
