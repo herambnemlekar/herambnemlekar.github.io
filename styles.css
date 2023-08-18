@@ -35,11 +35,11 @@ a img{border:0px;}
 /****************************************************/
 
 #header{
-	width: 750px;  /* because the header has 2% padding on each side */
+	width: 720px;  /* because the header has 2% padding on each side */
 	height: 110px;
 	background-color: #f5f5ff;
 	opacity: 0.85;
-	padding: 0px 25px;
+	padding: 0px 40px;
 	position: fixed;
 	top: 0;
     left: 50%;
@@ -62,15 +62,15 @@ a img{border:0px;}
 #header #name{
 	padding-top: 35px;
 	float: left;
-	font: normal 40px/50px 'Garamond', monospace;
-	margin-right: 5px; 
+	font: bold 38px/48px 'Garamond', monospace;
+	margin-right: 0px; 
 }
-#header #main-menu{float: right; padding-top:20px;}
+#header #main-menu{float: right; padding-top:22px;}
 #header #main-menu li{
 	float: left;
 	list-style: none;
-	margin-left: 20px;
-	font: normal 28px/50px 'Garamond', monospace;
+	margin-left: 22px;
+	font: bold 24px/48px 'Garamond', monospace;
 }
 
 /****************************************************/
