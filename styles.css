@@ -62,7 +62,7 @@ a img{border:0px;}
 }
 
 @media (max-width: 768px) {
-  #header #main-menu {
+  #header #main-menu li{
     margin-left: 22px;
     font: bold 22px/48px 'Garamond', monospace;
   }
