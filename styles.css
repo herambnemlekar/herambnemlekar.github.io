@@ -72,8 +72,8 @@ a img{border:0px;}
 /* about SECTION */
 /****************************************************/
 
-#about{margin:0px 80px; padding-top:50px;}
-#about .content{overflow:auto;}
+#about{margin: 0px 80px; padding-top: 50px;}
+#about .content{overflow: auto;}
 
 
 /****************************************************/
@@ -81,26 +81,26 @@ a img{border:0px;}
 /****************************************************/
 
 #news{margin:0px 80px; padding-top:100px;}
-#news .content{overflow:auto;}
-#news .content img{float:middle; margin-right:0px; opacity:1.0; border:5px solid #edeada;}
+#news .content{overflow: auto;}
+#news .content img{float: middle; margin-right: 0px; opacity: 1.0; border: 5px solid #edeada;}
 
 
 /****************************************************/
 /* publication SECTION */
 /****************************************************/
 
-#research{margin:0px 80px; padding-top:50px;}
-#research .content{overflow:auto;}
-#research .content img{float:left; margin-right:40px; border:5px solid #222222;}
+#research{margin: 0px 80px; padding-top: 150px;}
+#research .content{overflow: auto;}
+#research .content img{float: left; margin-right: 40px; border: 5px solid #222222;}
 
 
 /****************************************************/
 /* outreach SECTION */
 /****************************************************/
 
-#outreach{margin:0px 80px; padding-top:50px;}
-#outreach .content{overflow:auto; text-align:center}
-#outreach .content img{float:middle; margin-right:0px; opacity:1.0; border:0px solid #edeada;}
+#outreach{margin:0px 80px; padding-top: 150px;}
+#outreach .content{overflow: auto; text-align: center}
+#outreach .content img{float: middle; margin-right: 0px; opacity: 1.0; border: 0px solid #edeada;}
 
 
 
@@ -108,16 +108,16 @@ a img{border:0px;}
 /* art SECTION */
 /****************************************************/
 
-#art{margin:0px 43px; padding-top:100px;}
-#art .content{overflow:auto; text-align:center;}
-#art .content img{float:middle; margin-right:0px; opacity:0.8; border:0px solid #edeada;}
+#art{margin:0px 80px; padding-top:150px;}
+#art .content{overflow: auto; text-align: center;}
+#art .content img{float: middle; margin-right: 0px; opacity: 0.8; border: 0px solid #edeada;}
 
 
 /****************************************************/
 /* contact SECTION */
 /****************************************************/
-#contact{margin:0px 80px; padding-top:100px;}
-#contact .content{overflow:auto; text-align:center; font-size: 14px;}
+#contact{margin: 0px 80px; padding-top: 100px;}
+#contact .content{overflow: auto; text-align: center; font-size: 14px;}
 #contact #social-footer{width: 100%; text-align: center;}
 
 
