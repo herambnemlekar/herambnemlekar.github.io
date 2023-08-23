@@ -99,7 +99,7 @@ a img{border:0px;}
 /****************************************************/
 
 #outreach{margin:0px 80px; padding-top: 150px;}
-#outreach .content{overflow: auto; text-align: center}
+#outreach .content{overflow: auto; text-align: left; padding-top: 50px;}
 #outreach .content img{float: middle; margin-right: 0px; opacity: 1.0; border: 0px solid #edeada;}
 
 
