@@ -1,5 +1,5 @@
 body{
-	background-color: #ededed;
+	background-color: #ffffff;
 	margin: 0px;
 	font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -25,7 +25,7 @@ a img{border:0px;}
 #container{
 	width: 900px;  
 	margin: 0 auto;
-	background-color: #fffefa;
+	background-color: #ffffff;
 	overflow: auto;
 	padding-bottom: 50px;
 }
