@@ -72,16 +72,26 @@ a img{border:0px;}
 /* about SECTION */
 /****************************************************/
 
-#about{margin: 0px 40px; padding-top: 50px;}
+#about{margin: 0px 80px; padding-top: 40px;}
 #about .content{overflow: auto;
 				font: 16px/32px 'Georgia', monospace;}
+
+
+/****************************************************/
+/* highlight SECTION */
+/****************************************************/
+
+#highlight{margin:0px 80px; padding-top:40px;}
+#highlight .content{overflow: auto; text-align: center;
+			  font: 16px/32px 'Georgia', monospace;}
+#highlight .content img{float: middle; margin-right: 0px; opacity: 0.8; border: 0px solid #edeada;}
 
 
 /****************************************************/
 /* news SECTION */
 /****************************************************/
 
-#news{margin:0px 40px; padding-top:100px;}
+#news{margin:0px 80px; padding-top:80px;}
 #news .content{overflow: auto;
 			   font: 16px/32px 'Georgia', monospace;}
 #news .content img{float: middle; margin-right: 0px; opacity: 1.0; border: 0px solid #edeada;}
