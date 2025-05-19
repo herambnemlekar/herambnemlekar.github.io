@@ -72,7 +72,7 @@ a img{border:0px;}
 /* about SECTION */
 /****************************************************/
 
-#about{margin: 0px 76px; padding-top: 50px;}
+#about{margin: 0px 40px; padding-top: 50px;}
 #about .content{overflow: auto;
 				font: 16px/32px 'Georgia', monospace;}
 
@@ -81,7 +81,7 @@ a img{border:0px;}
 /* news SECTION */
 /****************************************************/
 
-#news{margin:0px 76px; padding-top:100px;}
+#news{margin:0px 40px; padding-top:100px;}
 #news .content{overflow: auto;
 			   font: 16px/32px 'Georgia', monospace;}
 #news .content img{float: middle; margin-right: 0px; opacity: 1.0; border: 0px solid #edeada;}
